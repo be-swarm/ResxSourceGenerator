@@ -1,0 +1,49 @@
+    <Version>[Change]</Version>
+    <PackageId>beswarm.[Change]</PackageId>
+    <Title>[Change]</Title>
+    <PackageTags>[Change]</PackageTags>    
+    <Description>[Change]
+    </Description>
+    <RepositoryUrl>https://github.com/be-swarm/[Change]</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/be-swarm/Validator</PackageProjectUrl>
+    <PackageReleaseNotes>
+    </PackageReleaseNotes>
+
+
+
+    <Authors>Be Swarm</Authors>
+    <Company>Be Swarm</Company>
+    <Copyright>Be Swarm</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.MD</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <RepositoryType>git</RepositoryType>    
+	
+
+
+
+	
+     <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+
+
+	
+
+
+	<ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+ <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  <None Include="..\..\README.MD">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
