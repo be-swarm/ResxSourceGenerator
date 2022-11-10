@@ -1,7 +1,7 @@
 # NAME
 
-[![NuGet](https://img.shields.io/nuget/v/DataAnnotationValidator.svg)](https://www.nuget.org/packages/DataAnnotationValidator/)
-[![NuGet](https://img.shields.io/nuget/dt/DataAnnotationValidator.svg)](https://www.nuget.org/packages/DataAnnotationValidator/)
+[![NuGet](https://img.shields.io/nuget/v/BeSwarm.ResxSourceGenerator.svg)](https://www.nuget.org/packages/BeSwarm.ResxSourceGenerator/)
+[![NuGet](https://img.shields.io/nuget/dt/BeSwarm.ResxSourceGenerator.svg)](https://www.nuget.org/packages/BeSwarm.ResxSourceGenerator/)
 
 
 Description
