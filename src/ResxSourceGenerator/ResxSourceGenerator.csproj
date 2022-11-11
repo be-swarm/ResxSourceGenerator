@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    
+    <RootNamespace>BeSwarm.ResxSourceGenerator</RootNamespace>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0</Version>
+    <PackageId>beswarm.ResxSourceGenerator</PackageId>
+    <Title>Generate Strong Typed Variables from resources items</Title>
+    <PackageTags>resx, ressources</PackageTags>
+    <Description>
+     
+    </Description>
+    <RepositoryUrl>https://github.com/be-swarm/ResxSourceGenerator</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/be-swarm/ResxSourceGenerator</PackageProjectUrl>
+    <PackageReleaseNotes>
+    </PackageReleaseNotes>
+
+    <Authors>Be Swarm</Authors>
+    <Company>Be Swarm</Company>
+    <Copyright>Be Swarm</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.MD</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <RepositoryType>git</RepositoryType>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bin\Debug\netstandard2.0\\netstandard2.0\ResxSourceGenerator.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(OutputPath)\netstandard2.0\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="4.2.0" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.MD">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  
+</Project>
