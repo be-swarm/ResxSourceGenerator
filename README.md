@@ -15,6 +15,10 @@ The impossibility of having intellisense.
 
 This package generate strong typed vars that provide secure access to resources.
 
+This project is inspired by the project
+https://github.com/meziantou/Meziantou.Framework/tree/main/src/Meziantou.Framework.ResxSourceGenerator
+
+
 Classical resx access:
 ```csharp
 ressourcemanager.GetString("Item");
