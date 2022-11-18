@@ -6,7 +6,7 @@
     <RootNamespace>BeSwarm.ResxSourceGenerator</RootNamespace>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageId>beswarm.ResxSourceGenerator</PackageId>
     <Title>Generate Strong Typed Variables from resources items</Title>
     <PackageTags>resx, ressources</PackageTags>
